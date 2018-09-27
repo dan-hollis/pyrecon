@@ -1,0 +1,8 @@
+requests==2.18.4
+beautifultable==0.5.3
+python_whois==0.7.0
+pyfiglet==0.7.5
+ipwhois==1.0.0
+beautifulsoup4==4.6.3
+termcolor==1.1.0
+whois==0.7
