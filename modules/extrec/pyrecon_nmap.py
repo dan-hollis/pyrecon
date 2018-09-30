@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 import os
 import subprocess
-from modules.colors import colors
+from modules.lib.colors import colors
 
 def pyrecon_nmap(nmap_directory, output_directory):
 	target_subnet_file = os.path.join(output_directory, 'subnets.txt')

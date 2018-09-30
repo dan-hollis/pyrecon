@@ -2,7 +2,7 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-from modules.colors import colors
+from modules.lib.colors import colors
 
 def get_port_assignments(adminsub_search_configs):
 	"""

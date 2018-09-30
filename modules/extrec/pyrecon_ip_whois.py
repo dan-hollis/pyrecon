@@ -5,7 +5,7 @@ import time
 import whois
 from ipwhois import IPWhois
 import warnings
-from modules.colors import colors
+from modules.lib.colors import colors
 
 def pyrecon_ip_whois(target_subnet_file, target_domain_file, ip_whois_configs):
 	"""

@@ -3,7 +3,7 @@ import os
 import json
 import sys
 import subprocess
-from modules.colors import colors
+from modules.lib.colors import colors
 
 def pyrecon_masscan(masscan_directory, output_directory, masscan_rate):
 	target_subnet_file = os.path.join(output_directory, 'subnets.txt')

@@ -20,7 +20,8 @@ apt-get install -y git firefox-esr xsltproc nmap masscan dnsrecon python python-
 # Pip installs
 wget -nc -P /opt/ https://bootstrap.pypa.io/get-pip.py
 python /opt/get-pip.py --prefix=/usr/local/
-python3 -m pip install --upgrade pip setuptools wheel requests beautifultable python_whois pyfiglet ipwhois beautifulsoup4 termcolor whois
+python3 -m pip install --upgrade pip setuptools wheel
+python3 -m pip install -r ../requirements.txt
 
 git clone https://github.com/maaaaz/nmaptocsv /opt/nmaptocsv
 chmod +x /opt/nmaptocsv/nmaptocsv.py

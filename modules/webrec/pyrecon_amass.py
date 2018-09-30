@@ -2,7 +2,7 @@
 import os
 import json
 import subprocess
-from modules.colors import colors
+from modules.lib.colors import colors
 
 def pyrecon_amass(target_domain_file, subdomains_all_file, amass_configs):
 	amass_directory = os.path.abspath(amass_configs["amass_directory"])

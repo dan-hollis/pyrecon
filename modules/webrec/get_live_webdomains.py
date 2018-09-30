@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import requests
-from modules.colors import colors
+from modules.lib.colors import colors
 import json
 requests.packages.urllib3.disable_warnings() # Disable SSL certificate warnings
 import os

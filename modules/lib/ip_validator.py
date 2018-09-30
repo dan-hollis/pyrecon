@@ -12,7 +12,6 @@ def is_valid_ipv4(address):
 		return address.count('.') == 3
 	except socket.error:
 		return False
-
 	return True
 
 def is_valid_ipv6(address):

@@ -2,7 +2,7 @@
 import os
 import json
 import subprocess
-from modules.colors import colors
+from modules.lib.colors import colors
 
 def pyrecon_subfinder(target_domain_file, subdomains_all_file, subfinder_configs):
 	subfinder_directory = os.path.abspath(subfinder_configs["subfinder_directory"])
