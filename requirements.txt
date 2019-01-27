@@ -1,4 +1,4 @@
-requests==2.18.4
+requests>=2.20.0
 beautifultable==0.5.3
 python_whois==0.7.0
 pyfiglet==0.7.5
